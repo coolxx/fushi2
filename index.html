@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="gb2312">
+    <title>Document</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+    <link rel="stylesheet" href="css/style.css?1.0">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        function pgScale(){
+            var deviceWidth = document.documentElement.clientWidth;
+            if(deviceWidth > 720) deviceWidth = 720;
+            document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+        }
+        pgScale();
+        window.onresize=pgScale;
+    </script>
+</head>
+<body>
+<div class="zg-wrap">
+    <!-- 头部 -->
+    <div class="zg_header">
+        <div class="zg_head">
+            <h2 class="logo fl">
+                <a href="http://wap.kaoyan365.cn/">
+                    <img src="images/logo.jpg" alt="中公考研">
+                </a>
+            </h2>
+            <div class="phone fr">
+                <a href="tel:400-6300-966">400-6300-966</a>
+            </div>
+        </div>
+    </div>
+
+    <!--banner-->
+    <div class="banner">
+        <img src="images/banner.jpg" alt="">
+    </div>
+
+    <!--复试扫盲-->
+    <div class="zg-main1">
+        <h3>复试扫盲</h3>
+        <p class="m1-tit">
+            <b>数据调查</b>
+        </p>
+        <ul class="m1-cont1">
+            <li>
+                <a href="" target="_blank">复试常识扫盲</a>
+            </li>
+            <li>
+                <a href="" target="_blank">历年考研分数线</a>
+            </li>
+            <li>
+                <a href="" target="_blank">34所自划线</a>
+            </li>
+            <li>
+                <a href="" target="_blank">院校复试信息</a>
+            </li>
+        </ul>
+        <p class="m1-tit">
+            <b style="background:url(images/m3.png) no-repeat left center;background-size: 0.73rem;">调剂流程图</b>
+        </p>
+        <img src="images/m9.jpg" alt="调剂流程图" style="width: 7rem;margin: 0.35rem auto 0;display: block;">
+        <p class="m1-tit">
+            <b style="background:url(images/m4.png) no-repeat left center;background-size: 0.73rem;">快来预约</b>
+        </p>
+        <div class="m1-cont3">
+            <p>
+                <label for="name">姓名</label>
+                <input id="name" type="text">
+            </p>
+            <p>
+                <label for="phone">电话</label>
+                <input id="phone" type="text">
+            </p>
+            <p>
+                <label for="academy">报考院校</label>
+                <input id="academy" type="text">
+            </p>
+            <p>
+                <label for="major">报考专业</label>
+                <input id="major" type="text">
+            </p>
+            <button type="submit">点击提交信息</button>
+        </div>
+        <p class="saying">
+            成功只是由一系列下决心的努力所构成。<br>
+            <span>success is just a series of trying to make up your mind.</span>
+        </p>
+    </div>
+
+    <!--复试流程-->
+    <div class="zg-main2">
+        <h3>复试流程</h3>
+        <ul class="m2-cont1">
+            <li>
+                <b>考试内容</b>
+                <p>
+                    专业课知识60%<br>
+                    英语能力10%<br>
+                    综合素质考核30%
+                </p>
+            </li>
+            <li>
+                <b>考试形式</b>
+                <p>
+                    笔试<br>
+                    面试<br>
+                    实践操作
+                </p>
+            </li>
+        </ul>
+        <div class="m2-cont2">
+            <ul class="m2-btn">
+                <li>政审材料</li>
+                <li>准备材料</li>
+                <li>体验</li>
+                <li>笔试</li>
+                <li>面试</li>
+                <li>录取</li>
+            </ul>
+            <div class="m2-show-box">
+                <em>&nbsp;</em>
+                <p>
+                    1、初试准考证；<br>
+                    2、本人有效身份证件原件及复印件；<br>
+                    3、毕业证书和学位证书原件及复印件；<br>
+                    4、政治审核表；<br>
+                    5、大学期间成绩单原件及成绩单复印件；
+                </p>
+            </div>
+            <div class="m2-show-box">
+                <em>&nbsp;</em>
+                <p>1、加分证书：四六级等相关证书及操作技能证书；<br/>
+
+                    2、撰写材料：面试简历（5份左右）、自我介绍及给导师的信件等；
+                </p>
+            </div>
+            <div class="m2-show-box">
+                <em>&nbsp;</em>
+                <p>1、体检费用；<br/>
+
+                    2、本人一寸照片；<br/>
+
+                    3、体检注意事项：体检时间、地点；体检前不要饮食，保持良好的睡眠；
+                </p>
+            </div>
+            <div class="m2-show-box">
+                <em>&nbsp;</em>
+                <p>1、专业课备：提前准备专业课，争取得到好成绩；<br/>
+
+                    2、英语备考：考虑到听力问题，所以要准备他收音耳机；
+                </p>
+            </div>
+            <div class="m2-show-box">
+                <em>&nbsp;</em>
+                <p>1、面试主要从三个方面考查：专业面试、英语面试、综合面试；<br/>
+
+                    2、面试形式：有物流领导小组面试、结构化面试、做好全面准备；
+                </p>
+            </div>
+            <div class="m2-show-box">
+                <em>&nbsp;</em>
+                <p>1、录取通知会很快发出，关注报考院校研究生网站，关注院校信息，不满意录取情况及时调剂；
+                </p>
+            </div>
+        </div>
+        <p class="saying">
+            考研复试不在于握有一手好牌，而在于把手里的牌打好。<br>
+            <span style="line-height: 0.26rem;">
+                retrial consists not in holding good cards,<br>
+                but in playing well those you hold.
+            </span>
+        </p>
+    </div>
+
+    <!--复试指导-->
+    <div class="zg-main3">
+        <h3>复试指导</h3>
+        <ul class="m3-cont1">
+            <li>
+                <span>院校<br>复试标准</span>
+            </li>
+            <li>
+                <a href="">普通<br>院校专业</a>
+            </li>
+            <li>
+                <a href="">重点<br>院校专业</a>
+            </li>
+            <li>
+                <a href="">名校<br>重点专业</a>
+            </li>
+        </ul>
+
+        <div class="m3-cont2">
+            <div class="cont2-main" style="margin-top: 0.33rem;">
+                <b>专业能力</b>
+                <p>面试深挖本科经历，考察是否有科研潜质</p>
+                <p>通过笔试面试考察是否了解学科前沿动态</p>
+                <p>通过专业课笔试考核专业基础知识</p>
+            </div>
+            <div class="cont2-main">
+                <b>综合素质</b>
+                <p>导师面试时随机提问，无规律可循</p>
+                <p>面试时关注个人特色及团队协作经历</p>
+                <p>考察自我介绍及其他常规类面试问题</p>
+            </div>
+            <div class="cont2-main">
+                <b>英语能力</b>
+                <p>通过小组讨论等形式考察英语的运用能力</p>
+                <p>复试时考察专业英文文献现场翻译</p>
+                <p>面试考察英文自我介绍及常见口语话题</p>
+            </div>
+        </div>
+
+        <div class="m3-cont3">
+            <div class="cont3-main">
+                <b>
+                    2018考研复试<br>
+                    英语口语专项提升班
+                </b>
+                <span>课时：16</span>
+                <div class="price">
+                    <p>优惠价</p>
+                    <span>原价：1198.00元 </span>
+                    <span>599.00元</span>
+                </div>
+                <div class="buy-course">
+                    <a href="">免费试听</a>
+                    <a href="" style="background: #ffaf6c;">我要购买</a>
+                </div>
+            </div>
+            <div class="cont3-main">
+                <b>
+                    2018考研复试<br>
+                    面试定制班
+                </b>
+                <span>课时：36</span>
+                <div class="price">
+                    <p>优惠价</p>
+                    <span>原价：2560.00元 </span>
+                    <span>1280.00元</span>
+                </div>
+                <div class="buy-course">
+                    <a href="">免费试听</a>
+                    <a href="" style="background: #ffaf6c;">我要购买</a>
+                </div>
+            </div>
+        </div>
+
+        <p class="saying">
+            很多人眺望草地，但少数人看到花朵。<br>
+            <span>Many eyes go through the meadow, but few see the flowers.</span>
+        </p>
+    </div>
+
+    <!--复试经验-->
+    <div class="zg-main4">
+        <h3>复试经验</h3>
+        <p class="m4-tit">全国各地区复试信息查询</p>
+        <b>A区</b>
+        <ul>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+            <li><a href="">北京</a></li>
+        </ul>
+        <b style="background: url(images/m26.png) no-repeat left center;background-size:1.64rem;">B区</b>
+        <ul>
+            <li><a href="">甘肃</a></li>
+            <li><a href="">甘肃</a></li>
+            <li><a href="">甘肃</a></li>
+            <li><a href="">甘肃</a></li>
+            <li><a href="">甘肃</a></li>
+            <li><a href="">甘肃</a></li>
+            <li><a href="">甘肃</a></li>
+            <li><a href="">甘肃</a></li>
+        </ul>
+        <p class="m4-tit" style="background: url(images/m27.png) no-repeat center;background-size: 3.05rem">复试经验</p>
+        <div class="m4-cont">
+            <a href="">考研人从现在就开始准备复试准备好</a>
+            <a href="">考研人从现在就开始准备复试准备好</a>
+            <a href="">考研人从现在就开始准备复试准备好</a>
+        </div>
+        <div class="m4-cont2">
+            <img src="images/m29.png" alt="">
+            <img src="images/m30.png" alt="">
+            <div>
+                <p>18考研复试备考群<span>454897392</span></p>
+                <p>18考研复试备考群<span>473392209</span></p>
+                <p>18考研复试备考群<span>182731533</span></p>
+                <p>18考研复试备考群<span>580187894</span></p>
+            </div>
+        </div>
+        <p class="saying" style="color: #fff;">
+            做很棒的事，别人可能会模仿。<br>
+            <span>Do something wonderful, people may imitate it.</span>
+        </p>
+    </div>
+
+    <!--专题推荐-->
+    <div class="zg-main5 clear">
+        <h3>专题推荐</h3>
+        <ul class="m5-cont">
+            <li>
+                <a href=""><img src="images/m33.jpg" alt="2018考研调剂"></a>
+            </li>
+            <li>
+                <a href=""><img src="images/m34.jpg" alt="2018考研复试"></a>
+            </li>
+            <li>
+                <a href=""><img src="images/m35.jpg" alt="2018二战集训营"></a>
+            </li>
+        </ul>
+        <p class="saying">
+            愿逆风如解意，容易莫摧残。<br>
+            <span style="line-height: 0.33rem;">wish the wind knows my intention<br>
+            and would let me go easy way instead to be devastated.</span>
+        </p>
+    </div>
+
+    <div class="fix">
+        <a class="fix1" href="tel:400-6300-966" title="">400-6300-966</a>
+        <a class="fix2" href="" title="在线咨询">在线咨询</a>
+    </div>
+    <div class="zixun">
+        <a href="">
+            <img src="images/zixun.png" alt="">
+        </a>
+    </div>
+
+</div>
+</body>
+</html>
